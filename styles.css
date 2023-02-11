@@ -1,0 +1,38 @@
+body {
+    background-image: url('assests/bgimage.jpg'); 
+    padding: 0px;
+    margin:0px;
+    background-size: cover;
+  }
+  .navbar-brand{
+    font-family: '', cursive;
+  }
+  .container{
+    margin-top:130px;
+  }
+  .card.mb-4.rounded-3.shadow-sm{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color:black
+  }
+  .card.mb-4.rounded-3.shadow-sm:hover{
+    backdrop-filter: blur(5px);
+  }
+  .my-0.fw-normal{
+    font-family:'Itim', cursive;
+  }
+  .card-body{
+    font-family:'Itim', cursive;
+  }
+  .btn.btn-success{
+    background-color: rgb(61, 114, 0);
+    border-color:rgb(61, 114, 0);
+  }
+  .btn.btn-success:hover{
+    background-color: rgb(54, 107, 4);
+  }
+
